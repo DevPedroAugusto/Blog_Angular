@@ -1,0 +1,24 @@
+<div class="container__content">
+  <div class="body-container">
+    <a [routerLink]="['']"> ← Voltar</a>
+    <div class="container-corpo">
+      <div class="content__cover">
+        <img src="{{ photoCover }}" alt="" srcset="" />
+      </div>
+      <div class="container-body">
+        <div class="content-text">
+          <h4>{{contentCategory}}</h4>
+          <h1>{{ contentTitle }}</h1>
+          <p>
+            {{ contentIntegra }}
+          </p>
+        </div>
+        <div class="content__footer">
+          <p>"{{contentAutor}}"</p>
+          <p>{{contentDay}} de {{contentMonth}}</p>
+          <p class="name">{{contentComments}} comentários</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

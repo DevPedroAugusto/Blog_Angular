@@ -1,0 +1,52 @@
+.container__menu-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.container__menu-bar:hover{
+  height: 3rem;
+}
+
+.container__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+
+  list-style: none;
+  font-weight: 500;
+}
+
+
+
+.container__menu-bar  a{
+  color: black;
+
+  transition: 0.5;
+}
+
+.container__menu-bar  a:hover{
+  scale: 105%;
+  color: rgb(0, 0, 0);
+
+  font-weight: bolder;
+}
+
+
+.container__menu-bar  li{
+  margin-left: 20px;
+
+  cursor: pointer;
+
+  transition: 0.5;
+}
+
+
+/*
+.container__menu-bar li:hover{
+  scale: 105%;
+  font-weight: bolder;
+} */

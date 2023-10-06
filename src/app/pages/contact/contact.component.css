@@ -1,0 +1,83 @@
+a{
+  text-decoration: none;
+  color: #000;
+  background-color: #272727;
+}
+
+p{
+  font-style: italic;
+  padding-left: 0.1rem;
+}
+
+#contact-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+#developer{
+  margin: 0rem 2.5rem;
+  padding: 1rem;
+  padding-bottom: rem;
+
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: #ffffff;
+}
+
+#developer figcaption{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 1rem;
+}
+
+#developer img{
+  border-radius: 1rem;
+}
+
+#developer p{
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+#social-media{
+  background-color: #ffffff44;
+  margin: 0rem 2.5rem;
+
+  padding: 3rem;
+  color: #272727;
+}
+
+#social-media img{
+  width: 5rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#social-media h1{
+  margin-bottom: 2rem;
+  color: #000;
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  padding-right: 1rem;
+
+  opacity: 60%;
+  background-color: white;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  transition: 0.7s;
+}
+.social:hover{
+  opacity: 100%;
+}

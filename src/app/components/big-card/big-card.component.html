@@ -1,0 +1,19 @@
+<div class="container__big-card">
+  <a [routerLink]="['content', Id]" >
+  <div class="big-card__photo">
+    <img src="http://localhost:4200//src/assets/img/9.png" alt="" srcset="" />
+  </div>
+  <div class="big-card-body">
+    <div class="big-card__title">
+      <h1>
+        <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
+      </h1>
+    </div>
+    <div class="big-card__description">
+      <p>
+          {{ cardDescription }}
+      </p>
+    </div>
+  </div>
+</a>
+</div>
